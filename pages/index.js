@@ -3,7 +3,6 @@ import styles from '../styles/Home.module.css';
 import img from '../public/sgrada_1.svg'
 
 export default function Home() {
-    console.log(img)
     return (
         <div className={styles.container}>
             
