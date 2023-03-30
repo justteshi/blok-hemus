@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 
-export default function FirstPost() {
+export default function ThirdPost() {
     const viewer = useRef(null);
 
     useEffect(() => {
@@ -8,7 +8,7 @@ export default function FirstPost() {
         WebViewer(
           {
             path: '/lib',
-            initialDoc: '/files/priloj_6.docx',
+            initialDoc: '/files/priloj_3.docx',
             isReadOnly: true
           },
           viewer.current,

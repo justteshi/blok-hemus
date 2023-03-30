@@ -24,23 +24,33 @@ export default function Home() {
 
                 <div className={styles.grid}>
                     <a href="/posts/first-post" className={styles.card}>
-                        <h3>Документ 1</h3>
-                        <p>Някакво описание</p>
+                        <h3>Покана за свикване на ОС на СС</h3>
+                        <p>Приложение 6</p>
+                        <span>Виж документ &#8594;</span>
                     </a>
 
-                    <a href="/posts/first-post" className={styles.card}>
-                        <h3>Документ 2</h3>
-                        <p>Някакво описание</p>
+                    <a href="/posts/second-post" className={styles.card}>
+                        <h3>Покана за свикване на ОС учредване на СС</h3>
+                        <p>Приложение 1</p>
+                        <span>Виж документ &#8594;</span>
                     </a>
 
-                    <a href="/posts/first-post" className={styles.card}>
-                        <h3>Документ 3</h3>
-                        <p>Някакво описание</p>
+                    <a href="/posts/third-post" className={styles.card}>
+                        <h3>Протокол от ОС за учредяване на СС 28.02.2023</h3>
+                        <p>Приложение 3</p>
+                        <span>Виж документ &#8594;</span>
                     </a>
 
-                    <a href="/posts/first-post" className={styles.card}>
-                        <h3>Документ 4</h3>
-                        <p>Някакво описание</p>
+                    <a href="/posts/forth-post" className={styles.card}>
+                        <h3> Споразумение за създаване на СС 28.02.2023</h3>
+                        <p>Приложение 4</p>
+                        <span>Виж документ &#8594;</span>
+                    </a>
+
+                    <a href="/posts/fifth-post" className={styles.card}>
+                        <h3>Таблица за определяне на ОЧС 28.02.2023</h3>
+                        <p>Таблица</p>
+                        <span>Виж документ &#8594;</span>
                     </a>
 
                 </div>
