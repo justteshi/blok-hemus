@@ -8,7 +8,7 @@ export default function FifthPost() {
         WebViewer(
           {
             path: '/lib',
-            initialDoc: '/files/tablica.xlsx',
+            initialDoc: '/files/priloj_2_sobstvenici.docx',
             isReadOnly: true
           },
           viewer.current,

@@ -8,7 +8,7 @@ export default function SecondPost() {
         WebViewer(
           {
             path: '/lib',
-            initialDoc: '/files/priloj_1.docx',
+            initialDoc: '/files/priloj_6.docx',
             isReadOnly: true
           },
           viewer.current,

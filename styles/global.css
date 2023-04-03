@@ -87,3 +87,17 @@ footer a {
 .hemus-title {
   color: rgb(12, 88, 133);
 }
+
+.section-title {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+
+
+@media (max-width: 600px) {
+  .section-title {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+}
