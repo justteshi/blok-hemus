@@ -23,15 +23,28 @@ export default function Home() {
                 </p>
                 <h1 className="section-title" >Обяви</h1>
                 <div className={styles.grid}>
-                    <a href="/posts/first-post" className={styles.card}>
-                        <h3>Покана за свикване на ОС</h3>
+
+                    <a href="/posts/second-post" className={styles.card}>
+                        <h3>Покана за учредване на СС 06.04.2023</h3>
                         <p>Документ</p>
                         <span>Виж документ &#8594;</span>
                     </a>
 
-                    <a href="/posts/second-post" className={styles.card}>
-                        <h3>Покана за учредване на СС</h3>
+                    <a href="/posts/first-post" className={styles.card}>
+                        <h3>Покана за свикване на ОС 16.02.2023</h3>
                         <p>Документ</p>
+                        <span>Виж документ &#8594;</span>
+                    </a>
+
+                    <a href="/posts/seventh-post" className={styles.card}>
+                        <h3>Съобщение за регистрация</h3>
+                        <p>Документ</p>
+                        <span>Виж документ &#8594;</span>
+                    </a>
+
+                    <a href="/posts/eighth-post" className={styles.card}>
+                        <h3>Таблица дължими суми от собственици</h3>
+                        <p>Таблица</p>
                         <span>Виж документ &#8594;</span>
                     </a>
 
